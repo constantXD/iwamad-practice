@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orazaly Kasymbek - Profile Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-slate-100 min-h-screen flex flex-col justify-between">
+    <header class="py-4 text-center">
+      <h1 class="text-2xl font-bold text-slate-800">My Profile</h1>
+    </header>
+
+    <main class="flex justify-center items-center px-4">
+      <article id="profile-card" class="profile-card rounded-2xl shadow-lg p-6">
+        <div class="card-avatar-wrapper">
+          <img
+            src="https://p7.hiclipart.com/preview/423/562/360/ronnie-coleman-1999-mr-olympia-bodybuilding-most-muscular-bodybuilding.jpg"
+            alt="Profile picture of Orazaly Kasymbek"
+            class="card-avatar"
+          />
+        </div>
+
+        <h2 class="text-xl font-semibold text-slate-900 mt-4">
+          Orazaly Kasymbek
+        </h2>
+        <p class="text-sm text-slate-500 mb-3">Aspiring Web Developer</p>
+
+        <p class="card-bio text-slate-700 text-sm leading-relaxed">
+          I am a 3rd-year university student passionate about web development
+          and UI design. Currently, I am learning modern frontend tools and
+          building interactive responsive web applications.
+        </p>
+
+        <div class="card-links">
+          <a href="mailto:k_orazaly@kbtu.kz" class="card-link">Email</a>
+          <a
+            href="https://github.com/constantXD"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="card-link"
+            >GitHub</a
+          >
+        </div>
+
+        <button id="like-btn" class="like-btn">
+          <span id="like-icon">🤍</span> Like (<span id="like-count">0</span>)
+        </button>
+      </article>
+    </main>
+
+    <footer class="py-4 text-center text-xs text-slate-400">
+      <p>&copy; 2026 Orazaly Kasymbek. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
