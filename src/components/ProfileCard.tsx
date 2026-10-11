@@ -56,7 +56,7 @@ export const ProfileCard = ({
       <p className="text-sm text-slate-500 mb-3">{role}</p>
       <p className="text-slate-700 text-sm leading-relaxed mb-4">{bio}</p>
 
-      {/* Список навыков + Empty state */}
+      {/*Список навыков + Empty state */}
       <div className="mb-4">
         <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
           Skills
@@ -72,7 +72,7 @@ export const ProfileCard = ({
         )}
       </div>
 
-      {/* Ссылки */}
+      {/* Ссылки на гитхаб и почту*/}
       <div className="flex gap-3 justify-center mb-5">
         <a
           href={`mailto:${email}`}
@@ -90,7 +90,7 @@ export const ProfileCard = ({
         </a>
       </div>
 
-      {/* Кнопка Like на useState */}
+      {/*Кнопка Like на useStat */}
       <button
         onClick={() => setLiked(!liked)}
         className={`px-5 py-2 rounded-full border text-sm font-semibold transition-all cursor-pointer ${
