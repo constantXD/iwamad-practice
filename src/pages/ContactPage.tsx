@@ -1,16 +1,44 @@
 export const ContactPage = () => {
   return (
-    <div className="bg-white p-6 rounded-2xl shadow-lg max-w-md w-full text-center">
-      <h2 className="text-xl font-bold text-slate-800 mb-3">Contact Me</h2>
-      <p className="text-slate-600 text-sm mb-4">
+    <div style={{ padding: "var(--space-6)", textAlign: "center" }}>
+      <h2 style={{ marginBottom: "var(--space-4)" }}>Contact Me</h2>
+      <p
+        style={{
+          color: "var(--color-text-muted)",
+          marginBottom: "var(--space-4)",
+        }}
+      >
         Feel free to reach out via email or GitHub.
       </p>
-      <div className="flex flex-col gap-2 text-sm font-medium text-blue-600">
-        <a href="mailto:k_orazaly@kbtu.kz">k_orazaly@kbtu.kz</a>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "var(--space-3, 12px)",
+        }}
+      >
+        <a
+          href="mailto:k_orazaly@kbtu.kz"
+          style={{
+            color: "var(--color-primary)",
+            fontWeight: 500,
+            textDecoration: "underline",
+          }}
+        >
+          k_orazaly@kbtu.kz
+        </a>
+
         <a
           href="https://github.com/constantXD"
           target="_blank"
           rel="noreferrer"
+          style={{
+            color: "var(--color-primary)",
+            fontWeight: 500,
+            textDecoration: "underline",
+          }}
         >
           github.com/constantXD
         </a>
