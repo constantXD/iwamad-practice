@@ -24,6 +24,7 @@ export const Header = () => {
           <NavLink end to="/">
             Home
           </NavLink>
+          <NavLink to="/events">Events</NavLink>
           <NavLink to="/register">Register</NavLink>
           <NavLink to="/skills">Skills</NavLink>
           <NavLink to="/contact">Contact</NavLink>
