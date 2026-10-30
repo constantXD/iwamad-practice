@@ -4,7 +4,7 @@ import { HomePage } from "./pages/HomePage";
 import { SkillsPage } from "./pages/SkillsPage";
 import { ContactPage } from "./pages/ContactPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
-import { EventsPage } from "./components/EventsPage";
+import { EventsPage } from "./pages/EventsPage";
 import { EventDetailsPage } from "./pages/EventDetailsPage";
 import "./App.css";
 import { RegisterPage } from "./pages/RegisterPage";
